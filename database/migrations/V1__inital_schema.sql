@@ -9,3 +9,4 @@ primary key (id)
 )
 engine = innodb
 default charset = utf8;
+
