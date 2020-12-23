@@ -5,3 +5,13 @@ kind: ConfigMap
 metadata:
   name: pages-config-map
   namespace: brixton
+
+---
+apiVersion: v1
+data:
+  application.properties: |
+    bean.message=Mango
+kind: ConfigMap
+metadata:
+  name: pages
+  namespace: brixton
