@@ -10,7 +10,7 @@ metadata:
 apiVersion: v1
 data:
   application.properties: |
-    bean.message=Mango
+    bean.message=Banana
 kind: ConfigMap
 metadata:
   name: pages
