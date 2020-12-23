@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: chrisen/pages:scaling
+        - image: chrisen/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
